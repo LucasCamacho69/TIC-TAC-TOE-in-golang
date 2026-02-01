@@ -116,7 +116,7 @@ func verify_win(board [][]string) string{
 		if board[0][i] == board[1][i] && 
 		board[1][i] == board[2][i] &&
 		board[0][i] != "0" {
-			return board[i][0]
+			return board[0][i]
 		}
 	}
 
